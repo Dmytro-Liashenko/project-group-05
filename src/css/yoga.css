@@ -1,0 +1,63 @@
+.yoga {
+  background-color: #dfebeb;
+  text-align: center;
+  padding: 112px 0;
+}
+.intro-yoga {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+.title-yoga {
+  font-family: 'Cabin', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  margin-bottom: 20px;
+}
+.text-intro-yoga {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-bottom: 48px;
+}
+.yoga-list {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.yoga-item-foto {
+  margin: 0 auto;
+  width: 343px;
+  height: 198px;
+  margin-bottom: 24px;
+}
+.yoga-item-name {
+  font-family: 'Cabin', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  margin-bottom: 20px;
+}
+.yoga-item-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+.yoga-btn {
+  background-color: #c2d9fc;
+  border: 1px solid #c2d9fc;
+  border-radius: 100px;
+  padding: 10px 24px;
+  width: 343px;
+  height: 46px;
+  margin-top: 48px;
+
+  font-family: 'Sarabun', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.6;
+}
