@@ -1,3 +1,7 @@
+.team {
+  padding: 0 16px;
+}
+
 .meet-pages {
   font-family: 'Sarabun', sans-serif;
   font-weight: 600;
@@ -13,6 +17,7 @@
   letter-spacing: 0.01em;
   text-align: center;
   color: #0d0b0a;
+  margin-bottom: 20px;
 }
 .team-text {
   font-weight: 400;
@@ -28,12 +33,17 @@
   flex-direction: column;
   gap: 48px;
 }
+.foto {
+  display: block;
+  margin: 0 auto 20px;
+}
 .team-heading {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
   gap: 12px;
+  margin-bottom: 48px;
 }
 
 .name {
@@ -41,5 +51,33 @@
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
-  gap: 0px;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.team-list-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  color: #0d0b0a;
+  margin-bottom: 20px;
+}
+
+.team-social-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row;
+  gap: 14px;
+}
+
+.team-social-link {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.team-list-item {
+  margin-bottom: 48px;
 }
