@@ -1,4 +1,4 @@
-.container-list {
+.container .container-about {
     background-color: #dfebeb;
     align-items: center;
     justify-content: center;
@@ -6,12 +6,12 @@
     padding: 64px 0;
 }
 
-.title {
+.title-about {
     margin-bottom: 48px;
     max-width: 343px;
 }
 
-.about-us {
+.about-title {
     margin-bottom: 20px;
     font-family: "Cabin", sans-serif;
     font-weight: 400;
@@ -22,7 +22,7 @@
     color: #0d0b0a;
 }
 
-.p-about-us {
+.text-about-title {
     font-family: "Sarabun", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -42,7 +42,7 @@
     margin-bottom: 20px;
 }
 
-.list {
+.list-about {
     display: flex;
     flex-wrap: wrap;
     gap: 48px;
@@ -50,7 +50,7 @@
     max-width: 343px;
 }
 
-.p-section-about {
+.text-about {
     font-family: "Sarabun", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -74,7 +74,7 @@
 }
 
 @media screen and (min-width: 768px) {
-    .container-list {
+    .container .container-about {
         background: #f2fafa;
         padding: 40px 0;
     }
@@ -83,20 +83,20 @@
         margin-bottom: 0;
     }
 
-    .p-about-us {
-        font-size: 18;
+    .text-about-title {
+        font-size: 18px;
     }
 
-    .title {
+    .title-about {
         margin-bottom: 40px;
         max-width: 704px;
     }
 
-    .list-one {
+    .part-list {
         width: calc((100% - 24px) / 2);
     }
 
-    .list {
+    .list-about {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
@@ -111,20 +111,20 @@
     }
 }
 @media screen and (min-width: 1336px) {
-    .container-list {
+    .container .container-about {
         padding: 112px 0;
     }
-    .about-us {
+    .about-title {
         font-size: 52px;
     }
     .name-about {
         font-size: 28px;
         margin-bottom: 24px;
     }
-     .list-one {
+     .part-list {
          width: calc((100% - 24px) / 4);
      }
-     .list {
+     .list-about {
         flex-wrap: nowrap;
         max-width: 1312px;
         gap: 24px;
