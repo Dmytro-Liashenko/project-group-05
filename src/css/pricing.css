@@ -71,11 +71,17 @@ h2 {
 }
 
 .button-pricing {
+    display: inline-block;
     border: 1px solid var(--color-hawkes-blue);
     border-radius: 100px;
     padding: 10px 24px;
     width: 295px;
     height: 46px;
     background-color: #C2D9FC;
+    text-align: center;
+    text-decoration: none;
+    color: #222;
+    font: inherit;
+    cursor: pointer;
 }
 
