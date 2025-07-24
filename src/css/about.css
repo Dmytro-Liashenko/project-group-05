@@ -1,0 +1,132 @@
+.container .container-about {
+    background-color: #dfebeb;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 64px 0;
+}
+
+.title-about {
+    margin-bottom: 48px;
+    max-width: 343px;
+}
+
+.about-title {
+    margin-bottom: 20px;
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #0d0b0a;
+}
+
+.text-about-title {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    color: #0d0b0a;
+}
+
+.name-about {
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.4;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #0d0b0a;
+    margin-bottom: 20px;
+}
+
+.list-about {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+    margin-bottom: 48px;
+    max-width: 343px;
+}
+
+.text-about {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    color: #0d0b0a;
+}
+
+.button-about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 8px;
+    border: 1px solid #c2d9fc;
+    border-radius: 100px;
+    padding: 10px 24px;
+    width: 343px;
+    height: 46px;
+    background: #c2d9fc;
+}
+
+@media screen and (min-width: 768px) {
+    .container .container-about {
+        background: #f2fafa;
+        padding: 40px 0;
+    }
+
+    .name-about {
+        margin-bottom: 0;
+    }
+
+    .text-about-title {
+        font-size: 18px;
+    }
+
+    .title-about {
+        margin-bottom: 40px;
+        max-width: 704px;
+    }
+
+    .part-list {
+        width: calc((100% - 24px) / 2);
+    }
+
+    .list-about {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 40px;
+        max-width: 704px;
+        gap: 45.5px 24px;
+    }
+
+    .button-about {
+        width: 110px;
+    }
+}
+@media screen and (min-width: 1336px) {
+    .container .container-about {
+        padding: 112px 0;
+    }
+    .about-title {
+        font-size: 52px;
+    }
+    .name-about {
+        font-size: 28px;
+        margin-bottom: 24px;
+    }
+     .part-list {
+         width: calc((100% - 24px) / 4);
+     }
+     .list-about {
+        flex-wrap: nowrap;
+        max-width: 1312px;
+        gap: 24px;
+     }
+}
