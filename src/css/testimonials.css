@@ -1,12 +1,11 @@
 .testimonials {
-  padding: 64px 32px;
   background: #f2fafa;
-  overflow-x: hidden
 }
 
 .testimonials-heading {
-  font-weight: 400;
+  font-family: "Cabin", sans-serif;;
   font-size: 52px;
+  font-weight: 400;
   line-height: 1.2;
   letter-spacing: 0.01em;
   text-align: center;
@@ -15,6 +14,7 @@
 }
 
 .testimonials-paragraph {
+  font-family: "Sarabun", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.6;
@@ -36,24 +36,23 @@
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
-  gap: 0;
   border-radius: 24px;
   padding: 12px;
   min-width: 343px;
   height: auto;
-  box-sizing: border-box;
 
   background: #dfebeb;
 }
 
 .testimonials-item-text {
+  font-family: "Sarabun", sans-serif;
   max-width: 319px;
-  word-wrap: break-word;
   font-weight: 400;
   font-size: 22px;
   line-height: 1.6;
   text-align: center;
   color: #0d0b0a;
+  margin-bottom: auto;
 }
 
 .testimonials-image {
@@ -64,6 +63,7 @@
 }
 
 .testimonials-item-name {
+  font-family: "Sarabun", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.6;
@@ -72,9 +72,48 @@
 }
 
 .testimonials-item-status {
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
   color: #0d0b0a;
+}
+
+@media screen and (min-width: 768px) {
+  .testimonials-heading {
+    margin-bottom: 24px;
+    font-size: 40px;
+  }
+
+  .testimonials-item {
+    min-width: 704px;
+  }
+
+  .testimonials-item-text {
+    max-width: 680px;
+  }
+
+}
+
+@media screen and (min-width: 1336px) {
+  .testimonials-heading {
+    font-size: 52px;
+    margin-bottom: 24px;
+  }
+
+  .testimonials-list {
+    justify-content: space-between;
+  }
+
+  .testimonials-item {
+    flex: 1 1 calc(50% - 24px);
+    max-width: 644px;
+    min-width: auto;
+  }
+
+  .testimonials-item-status {
+    line-height: 1.6;
+  }
+
 }
