@@ -34,7 +34,7 @@ h2 {
     background-color: #DFEBEB;
 }
 
-.pricing-plan-titte {
+.pricing-plan-title {
     font-weight: 400;
     font-size: 18px;
     line-height: 140%;
@@ -42,7 +42,7 @@ h2 {
     text-align: center;
     color: var(--color-scheme-2-text);
 }
-.pricing-plan-titte-item{
+.pricing-plan-title-item{
     font-weight: 400;
     font-size: 44px;
     line-height: 120%;
