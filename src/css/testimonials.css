@@ -99,15 +99,12 @@
   }
 
   .testimonials-item {
+    flex-basis: calc(50% - 24px);
     width: 644px;
-  }
-
-  .testimonials-item-text {
   }
 
   .testimonials-item-status {
     line-height: 1.6;
   }
-
 
 }
