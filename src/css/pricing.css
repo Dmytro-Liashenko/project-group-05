@@ -174,7 +174,6 @@
 
 .row-card:nth-child(3) .button-pricing {
     order: 3;
-    width: 220px;
     margin-top: 16px;
     align-self: flex-start;
 }
@@ -195,5 +194,47 @@
     color: #222;
     font: inherit;
     cursor: pointer;
+}
+}
+
+@media screen and (min-width: 1336px) {
+.row-card {
+    flex: none;
+}
+.row-card:nth-child(3) {
+    flex: none;
+}
+.button-pricing-mobile:nth-child(3) {
+    display: none;
+}
+.button-pricing-mobile-check:nth-child(3) {
+    display: inline-block;
+    border-radius: 100px;
+    padding: 10px 24px;
+    width: 295px;
+    height: 46px;
+    background-color: #C2D9FC;
+    text-align: center;
+    text-decoration: none;
+    color: #222;
+    font: inherit;
+    cursor: pointer;
+}
+.pricing {
+    padding-top: 112px;
+    padding-bottom: 112px;
+}
+.row-card {
+    width: 404px;
+    height: 509px;
+}
+.row-card:nth-child(3) .pricing-plan{
+    display: block;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: center;
+}
+.pricing-plan-list {
+    margin-bottom: 116px;
 }
 }
