@@ -92,9 +92,21 @@
     padding-top: 40px;
   }
   .team-title {
-    margin-bottom: 24px;
+    margin-bottom: 8px;
   }
   .team-heading {
     margin-bottom: 40px;
+    padding-top: 40px;
+    gap: 16px;
+  }
+  .team-list {
+    gap: 24px;
+  }
+  .team-list:nth-child(2n + 1) {
+    margin-left: 0;
+  }
+
+  .team-list:nth-child(2n) {
+    margin-right: 0;
   }
 }
