@@ -1,9 +1,9 @@
+/* Styles for Mobile devices */
 .team-box {
   padding-top: 64px;
 }
 
 .team-meet-pages {
-  font-family: 'Cabin', sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
@@ -11,6 +11,7 @@
   color: #0d0b0a;
 }
 .team-title {
+  font-family: 'Cabin', sans-serif;
   font-weight: 400;
   font-size: 40px;
   line-height: 1.2;
@@ -86,13 +87,16 @@
   align-items: center;
   justify-content: center;
 }
-
+/* Styles for Tablet devices */
 @media screen and (min-width: 768px) {
   .team-box {
     padding-top: 40px;
+    max-width: 768px;
   }
+
   .team-title {
     margin-bottom: 8px;
+    font-size: 52px;
   }
   .team-heading {
     margin-bottom: 40px;
@@ -108,5 +112,28 @@
 
   .team-list:nth-child(2n) {
     margin-right: 0;
+  }
+  .team-list-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+  .team-photo {
+    margin-bottom: 24px;
+  }
+  .team-list-text {
+    margin-bottom: 16px;
+  }
+  .team-social-list {
+    margin-top: 24px;
+  }
+}
+
+/* Styles for Desktop devices */
+@media screen and (min-width: 1336px) {
+  .team-list-item {
+    flex-basis: calc((100% - 64px) / 3);
+  }
+  .team-box {
+    padding: 112px 64px 0 64px;
+    max-width: 1140px;
   }
 }
