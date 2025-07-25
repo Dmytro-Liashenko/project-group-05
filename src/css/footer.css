@@ -127,7 +127,7 @@
   }
 
   .footer-newsletter {
-    width: 100%;
+    max-width: 640px;
   }
 
   .footer-newsletter-text {
@@ -173,10 +173,18 @@
 
   .footer-inner {
     max-width: 1312px;
+    padding: 48px;
+  }
+
+  .footer-row {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap: 250px;
+  }
+
+  .footer-newsletter {
+    min-width: 595px;
   }
 
   .footer-left {
@@ -186,25 +194,16 @@
     max-width: 595px;
   }
 
-  .footer-links-section {
+  .footer-links-wrapper {
     max-width: 371px;
+  }
+
+  .footer-links-section {
+    min-width: 165px;
   }
 
   .footer-newsletter-button:hover,
   .footer-newsletter-button:focus {
     background-color: #c2d9fc;
-  }
-
-  .footer-copy {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    border: 0;
-    overflow: hidden;
-    clip: rect(0 0 0 0);
-    white-space: nowrap;
-    clip-path: inset(100%);
   }
 }
