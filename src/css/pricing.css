@@ -1,25 +1,24 @@
-
-/* Базовые стили */
 .pricing {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-top: 64px;
+    padding-top: 64px;
+    padding-bottom: 64px;
 }
 
 .pricing-plan-info {
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
 }
+
 .pricing-header {
     font-weight: 400;
     font-size: 40px;
     line-height: 120%;
     letter-spacing: 0.01em;
     text-align: center;
-    color: var(--color-scheme-2-text);
     margin-top: 12px;
     margin-bottom: 20px;
 }
@@ -36,12 +35,9 @@
 }
 
 .row-card {
-    border: 0px solid var(--color-scheme-2-border);
     border-radius: 16px;
     padding: 32px 24px;
     margin-bottom: 32px;
-    width: 100%;
-    max-width: 400px;
     background-color: #DFEBEB;
 }
 
@@ -51,7 +47,6 @@
     line-height: 140%;
     letter-spacing: 0.01em;
     text-align: center;
-    color: var(--color-scheme-2-text);
 }
 
 .pricing-plan-title-item {
@@ -60,7 +55,6 @@
     line-height: 120%;
     letter-spacing: 0.01em;
     text-align: center;
-    color: var(--color-scheme-2-text);
     margin-bottom: 24px;
 }
 
@@ -74,21 +68,17 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 160%;
-    color: var(--color-scheme-2-text);
-    margin-bottom: 32px;
 }
 
 .pricing-plan-list-item {
     font-weight: 400;
     font-size: 16px;
     line-height: 160%;
-    color: var(--color-scheme-2-text);
     margin-bottom: 16px;
 }
 
 .button-pricing-mobile-check {
     display: inline-block;
-    border: 1px solid var(--color-hawkes-blue);
     border-radius: 100px;
     padding: 10px 24px;
     width: 295px;
@@ -101,9 +91,11 @@
     cursor: pointer;
 }
 
-.button-pricing-mobile
-    {
+.button-pricing-mobile {
     display: none;
+}
+.row-card:nth-child(3) {
+    margin-bottom: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -112,9 +104,11 @@
     flex-direction: column;
     align-items: center;
     gap: 24px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
-.row {
+.pricing-row {
     display: flex;
     flex-direction: row;
     align-items: stretch;
@@ -124,19 +118,23 @@
 }
 
 .row-card {
-    flex: 0 1 calc(50% - 16px);
-    width: auto;
+    flex: 0 1 calc(50% - 12px);
     margin-bottom: 0;
-    }
+    width: 340px;
+}
 
 .row-card:nth-child(3) {
-    flex-basis: 100%;
+    flex: 0 1 100%;
     max-width: 100%;
-    display: flex;
     justify-content: center;
 }
 
+.pricing-plan-title{
+    margin-bottom: 24px;
+}   
+
 .pricing-plan-title-item {
+    margin-bottom: 24px;
     font-size: 72px;
 }
 
@@ -164,13 +162,13 @@
 }
 
 .row-card:nth-child(3) .pricing-plan-title-item {
-    margin-bottom: 16px;
+    margin-bottom: 24px;
     font-size: 72px;
 }
 
 .row-card:nth-child(3) .pricing-plan-list {
     order: 2;
-    flex-grow: 1;
+    flex-grow: 0.88;
     margin-bottom: 0;
 }
 
@@ -187,7 +185,6 @@
 
 .button-pricing-mobile {
     display: inline-block;
-    border: 1px solid var(--color-hawkes-blue);
     border-radius: 100px;
     padding: 10px 24px;
     width: 295px;
@@ -199,6 +196,4 @@
     font: inherit;
     cursor: pointer;
 }
-
 }
-
