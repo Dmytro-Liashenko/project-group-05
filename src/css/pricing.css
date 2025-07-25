@@ -1,31 +1,38 @@
-
 .pricing {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     margin-top: 64px;
 }
-h2 {
+
+.pricing-plan-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.pricing-header {
     font-weight: 400;
     font-size: 40px;
     line-height: 120%;
     letter-spacing: 0.01em;
     text-align: center;
-    color: var(--color-scheme-2-text);
     margin-top: 12px;
     margin-bottom: 20px;
 }
+
 .row {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .text-center {
     text-align: center;
     padding-bottom: 48px;
 }
+
 .row-card {
-    border: 0px solid var(--color-scheme-2-border);
     border-radius: 16px;
     padding: 32px 24px;
     margin-bottom: 32px;
@@ -40,40 +47,39 @@ h2 {
     line-height: 140%;
     letter-spacing: 0.01em;
     text-align: center;
-    color: var(--color-scheme-2-text);
 }
-.pricing-plan-title-item{
+
+.pricing-plan-title-item {
     font-weight: 400;
     font-size: 44px;
     line-height: 120%;
     letter-spacing: 0.01em;
     text-align: center;
-    color: var(--color-scheme-2-text);
     margin-bottom: 24px;
 }
+
 .pricing-plan-list li {
     display: flex;
     align-items: center;
     gap: 16px;
 }
-.pricing-plan-list{
+
+.pricing-plan-list {
     font-weight: 400;
     font-size: 16px;
     line-height: 160%;
-    color: var(--color-scheme-2-text);
     margin-bottom: 32px;
 }
+
 .pricing-plan-list-item {
     font-weight: 400;
     font-size: 16px;
     line-height: 160%;
-    color: var(--color-scheme-2-text);
     margin-bottom: 16px;
 }
 
-.button-pricing {
+.button-pricing-mobile-check {
     display: inline-block;
-    border: 1px solid var(--color-hawkes-blue);
     border-radius: 100px;
     padding: 10px 24px;
     width: 295px;
@@ -84,5 +90,10 @@ h2 {
     color: #222;
     font: inherit;
     cursor: pointer;
+}
+
+.button-pricing-mobile
+    {
+    display: none;
 }
 
