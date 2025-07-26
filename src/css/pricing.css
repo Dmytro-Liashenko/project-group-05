@@ -168,13 +168,12 @@
 
 .row-card:nth-child(3) .pricing-plan-list {
     order: 2;
-    flex-grow: 0.88;
+    flex-grow: 0.9;
     margin-bottom: 0;
 }
 
 .row-card:nth-child(3) .button-pricing {
     order: 3;
-    margin-top: 16px;
     align-self: flex-start;
 }
 
@@ -239,5 +238,12 @@
 }
 .pricing-plan-list {
     margin-bottom: 116px;
+}
+.pricing-plan-list-item:nth-child(5){
+    margin-bottom: 32px;
+}
+.button-pricing-mobile-check:hover,
+.button-pricing-mobile-check:focus {
+    background-color: #DADADA;
 }
 }
