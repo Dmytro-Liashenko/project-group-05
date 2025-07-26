@@ -1,6 +1,6 @@
 /* Styles for Mobile devices */
 .team-box {
-  padding-top: 64px;
+  padding: 64px 16px 64px 16px;
 }
 
 .team-meet-pages {
@@ -90,8 +90,7 @@
 /* Styles for Tablet devices */
 @media screen and (min-width: 768px) {
   .team-box {
-    padding-top: 40px;
-    max-width: 768px;
+    padding: 40px 32px 0px 32px;
   }
 
   .team-title {
@@ -133,8 +132,7 @@
     flex-basis: calc((100% - 64px) / 3);
   }
   .team-box {
-    padding: 112px 64px 0 64px;
-    max-width: 1440px;
+    padding: 112px 64px 112px 64px;
   }
   .team-list {
     justify-content: space-between;
