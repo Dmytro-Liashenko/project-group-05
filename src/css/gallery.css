@@ -58,10 +58,6 @@
   .gallery-text {
     padding-bottom: 80px;
   }
-
-  .gallery-list {
-    padding-bottom: 40px;
-  }
 }
 
 @media screen and (min-width: 1336px) {
