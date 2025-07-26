@@ -136,4 +136,7 @@
     padding: 112px 64px 0 64px;
     max-width: 1440px;
   }
+  .team-list {
+    justify-content: space-between;
+  }
 }
