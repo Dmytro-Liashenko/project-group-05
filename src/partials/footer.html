@@ -4,7 +4,7 @@
       <div class="footer-left-part">
         <!-- Logo -->
         <div class="footer-logo">
-          <a class="footer-logo-link" href="/">
+          <a class="footer-logo-link" href="/index.html">
             <svg class="footer-logo-icon" width="84" height="34">
               <use href="/img/icons.svg#icon-logo"></use>
             </svg>
@@ -17,18 +17,19 @@
           and events.
         </p>
         <div class="footer-newsletter">
-          <form class="footer-newsletter-form">
+          <form class="footer-newsletter-form" novalidate>
             <label class="footer-newsletter-label">
               <input
                 type="email"
-                name="email"
-                placeholder="Placeholder"
                 class="footer-newsletter-input"
+                placeholder="Email"
                 required
               />
+              <span class="footer-error-message">Invalid email</span>
             </label>
-            <button type="submit" class="footer-newsletter-button">Join</button>
+            <button class="footer-newsletter-button" type="submit">Join</button>
           </form>
+
           <p class="footer-newsletter-note">
             By subscribing, you consent to our Privacy Policy and agree to
             receive updates.
