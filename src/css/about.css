@@ -1,9 +1,9 @@
-.container .container-about {
+.about {
     background-color: #dfebeb;
-    align-items: center;
-    justify-content: center;
-    display: flex;
     padding: 64px 0;
+    align-items: center;
+        justify-content: center;
+        display: flex;
 }
 
 .title-about {
@@ -23,7 +23,6 @@
 }
 
 .text-about-title {
-    font-family: "Sarabun", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.6;
@@ -51,7 +50,6 @@
 }
 
 .text-about {
-    font-family: "Sarabun", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.6;
@@ -59,7 +57,7 @@
     color: #0d0b0a;
 }
 
-.button-about {
+.link-about {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -74,8 +72,8 @@
 }
 
 @media screen and (min-width: 768px) {
-    .container .container-about {
-        background: #f2fafa;
+    .about {
+        background-color: #f2fafa;
         padding: 40px 0;
     }
 
@@ -106,13 +104,17 @@
         gap: 45.5px 24px;
     }
 
-    .button-about {
+    .link-about {
         width: 110px;
+        margin: 0 auto;
     }
 }
 @media screen and (min-width: 1336px) {
-    .container .container-about {
+    .about {
         padding: 112px 0;
+    }
+    .title-about {
+        margin: 0 auto 40px;
     }
     .about-title {
         font-size: 52px;
@@ -128,5 +130,8 @@
         flex-wrap: nowrap;
         max-width: 1312px;
         gap: 24px;
+     }
+     .link-about {
+        margin: 0 auto;
      }
 }
