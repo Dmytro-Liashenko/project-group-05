@@ -210,8 +210,18 @@
     margin-top: auto;
     background-color: #C2D9FC;
     border: 1px solid #C2D9FC;
-        border-radius: 100px;
-        padding: 10px 24px;
-        width: 343px;
-        height: 46px;
+    border-radius: 100px;
+    padding: 10px 24px;
+    width: 343px;
+    height: 46px;
 }
+@media screen and (min-width: 768px){
+    .header-modal-button-menu{
+        flex-direction: row;
+    }
+    .header-modal-button{
+        width: 204px;  
+    }
+        
+}
+    
