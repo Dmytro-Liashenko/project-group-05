@@ -135,7 +135,7 @@
     align-items: stretch;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 24px;
+gap: 24px;
 }
 
 .row-card {
@@ -229,7 +229,7 @@
 }
 
 .button-pricing-mobile:nth-child(3) {
-    display: none;
+display: none;
 }
 
 .button-pricing-mobile-check:nth-child(3) {
