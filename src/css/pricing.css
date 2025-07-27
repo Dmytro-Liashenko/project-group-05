@@ -94,7 +94,9 @@
     display: inline-block;
     border-radius: 100px;
     padding: 10px 24px;
-    width: 295px;
+    width: 100%;
+    max-width: 295px;
+    
     height: 46px;
     background-color: #C2D9FC;
     text-align: center;
@@ -195,7 +197,9 @@
     order: 3;
     align-self: flex-start;
 }
-
+.button-pricing-mobile-check{
+    width: 295px;
+}
 .button-pricing-mobile-check:nth-child(3) {
     display: none;
 }

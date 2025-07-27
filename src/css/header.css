@@ -127,7 +127,7 @@
     width: 100%;
     height: 100%;
     background-color: #F2FAFA;
-
+    z-index: 999;
 
 
     opacity: 0;
@@ -212,7 +212,8 @@
     border: 1px solid #C2D9FC;
     border-radius: 100px;
     padding: 10px 24px;
-    width: 343px;
+    width: 100%;
+    max-width: 343px;
     height: 46px;
 }
 @media screen and (min-width: 768px){
