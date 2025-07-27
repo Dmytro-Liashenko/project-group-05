@@ -40,6 +40,19 @@
     margin-bottom: 32px;
     background-color: #DFEBEB;
 }
+.pricing-title{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #0D0B0A;
+}
+.pricing-text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+}
 
 .pricing-plan-title {
     font-weight: 400;
@@ -89,6 +102,11 @@
     color: #222;
     font: inherit;
     cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.6;
+
 }
 
 .button-pricing-mobile {
