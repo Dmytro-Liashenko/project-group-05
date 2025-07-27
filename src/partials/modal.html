@@ -1,8 +1,13 @@
 <!-- Бекдроп + Модальное окно -->
-<div class="model-overlay is-open">
+<div class="model-overlay" data-modal-one>
   <div class="model">
     <!-- Кнопка закрытия -->
-    <button type="button" class="modal-close" aria-label="Close modal">
+    <button
+      type="button"
+      class="modal-close"
+      aria-label="Close modal"
+      data-modal-one-close
+    >
       <svg class="modal-icon" width="32" height="32">
         <use href="./img/icons.svg#icon-close-menu"></use>
       </svg>
@@ -58,6 +63,8 @@
               id="contact-tel"
               class="input-field"
               type="tel"
+              inputmode="numeric"
+              pattern="\d*"
               name="contact-tel"
               placeholder="Placeholder"
               required
@@ -72,10 +79,15 @@
   </div>
 </div>
 
-<div class="model-overlay">
+<div class="model-overlay" data-modal-two>
   <div class="model">
     <!-- Кнопка закрытия -->
-    <button type="button" class="modal-close" aria-label="Close modal">
+    <button
+      type="button"
+      class="modal-close"
+      aria-label="Close modal"
+      data-modal-two-close
+    >
       <svg class="modal-icon" width="32" height="32">
         <use href="./img/icons.svg#icon-close-menu"></use>
       </svg>
@@ -145,10 +157,15 @@
   </div>
 </div>
 
-<div class="model-overlay">
+<div class="model-overlay" data-modal-three>
   <div class="model">
     <!-- Кнопка закрытия -->
-    <button type="button" class="modal-close" aria-label="Close modal">
+    <button
+      type="button"
+      class="modal-close"
+      aria-label="Close modal"
+      data-modal-three-close
+    >
       <svg class="modal-icon" width="32" height="32">
         <use href="./img/icons.svg#icon-close-menu"></use>
       </svg>
