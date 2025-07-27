@@ -38,8 +38,8 @@
   text-align: center;
   border-radius: 24px;
   padding: 12px;
-  width: 343px;
-
+  width: 100%;
+  max-width: 343px;
   background-color: #DFEBEB;
 }
 
@@ -53,8 +53,7 @@
 }
 
 .testimonials-image {
-  margin-top: 32px;
-  margin-bottom: 16px;
+  margin: 32px auto 16px;
   width: 56px;
   height: 56px;
 }
@@ -83,7 +82,9 @@
   }
 
   .testimonials-item {
-    width: 704px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 704px;
   }
 
   .testimonials-item-text {
@@ -99,12 +100,15 @@
   }
 
   .testimonials-item {
-    flex-basis: calc(50% - 24px);
-    width: 644px;
+    width: calc(50% - 12px);
+    max-width: 644px;
+  }
+
+  .testimonials-item-text {
+    max-width: 620px;
   }
 
   .testimonials-item-status {
     line-height: 1.6;
   }
-
 }
