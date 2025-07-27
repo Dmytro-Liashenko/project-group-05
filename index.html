@@ -19,7 +19,7 @@
     />
     <title>YogaBloom</title>
     <script type="module" crossorigin src="/project-group-05/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/project-group-05/assets/index-B7Buclvr.css">
+    <link rel="stylesheet" crossorigin href="/project-group-05/assets/index-CDv79uwX.css">
   </head>
   <body>
     <header class="header">
@@ -43,21 +43,73 @@
         </li>
       </ul>
     </div>
-    <div class="header-menu">
+    <button type="button" class="header-menu" data-menu-open>
       <svg width="24" height="24" class="header-menu-conent">
         <use href="/project-group-05/assets/icons-YTB61Rjb.svg#icon-menu"></use>
       </svg>
-    </div>
+    </button>
     <div class="header-logo">
-      <svg width="84" height="36" class="header-logo-content">
-        <use href="/project-group-05/assets/icons-YTB61Rjb.svg#icon-logo"></use>
-      </svg>
+      <a href="./index.html" class="header-logo-nav">
+        <svg width="84" height="36" class="header-logo-content">
+          <use href="/project-group-05/assets/icons-YTB61Rjb.svg#icon-logo"></use>
+        </svg>
+      </a>
     </div>
+
     <div class="header-button">
       <a href="#pricing" class="header-button-content">Join</a>
     </div>
     <div class="header-button-tablet">
       <a href="#pricing" class="header-button-content">Join Now</a>
+    </div>
+  </div>
+  <div class="backdrop" data-menu>
+    <div class="header-modal container">
+      <div class="header-modal-menu">
+        <button type="button" class="header-button-close" data-menu-close>
+          <svg class="header-button-close-svg" width="24" height="24">
+            <use href="../img/icons.svg#icon-close-menu"></use>
+          </svg>
+        </button>
+        <a href="./index.html" class="header-logo-nav">
+          <svg width="84" height="36" class="header-logo-content">
+            <use href="/project-group-05/assets/icons-YTB61Rjb.svg#icon-logo"></use>
+          </svg>
+        </a>
+
+        <div class="header-button">
+          <a href="#pricing" class="header-button-content">Join</a>
+        </div>
+        <div class="header-button-tablet">
+          <a href="#pricing" class="header-button-content">Join Now</a>
+        </div>
+      </div>
+      <div class="header-modal-nav">
+        <ul class="header-nav-list-menu">
+          <li class="header-nav-list-item">
+            <a href="./index.html" class="header-modal-list-text"
+              >Yoga Classes</a
+            >
+          </li>
+          <li class="header-nav-list-item">
+            <a href="#team" class="header-modal-list-text">Team</a>
+          </li>
+          <li class="header-nav-list-item">
+            <a href="#testimonials" class="header-modal-list-text"
+              >Testimonials</a
+            >
+          </li>
+          <li class="header-nav-list-item">
+            <a href="#pricing" class="header-modal-list-text">Pricing</a>
+          </li>
+          <li class="header-nav-list-item">
+            <a href="#footer" class="header-modal-list-text">Contacts</a>
+          </li>
+        </ul>
+      </div>
+      <div class="header-modal-button-menu">
+        <button type="button" class="header-modal-button">Join Now</button>
+      </div>
     </div>
   </div>
 </header>
