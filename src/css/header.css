@@ -8,7 +8,7 @@
     display: none;
 }
 .header-menu {
-    width: 74px;
+    margin-left: 16px;
     background-color: transparent;
 }
 
@@ -54,7 +54,7 @@
             margin: 18px 0;
         }
                 .header-menu {
-                    width: 105px;
+                    margin-left: 24px;
                 }
 }
 @media screen and (min-width: 1336px) {
